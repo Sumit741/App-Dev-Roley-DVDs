@@ -6,7 +6,7 @@ namespace ApplicationDevGroupCW.Models
     {
         [Key]
         public int MembershipCategoryNumber { get; set; }
-        public string MembershipCategoryDescription { get; set; }
+        public string? MembershipCategoryDescription { get; set; }
         public float MembershipCategoryTotalLoans { get; set; }
     }
 }

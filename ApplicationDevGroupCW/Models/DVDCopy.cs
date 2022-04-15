@@ -9,7 +9,7 @@ namespace ApplicationDevGroupCW.Models
         public int CopyNumber { get; set; }
 
         [ForeignKey("DVDNumber")]
-        public DVDTitle DVDTitle { get; set; }
+        public DVDTitle? DVDTitle { get; set; }
 
         public DateTime DatePurchased { get; set; }
     }

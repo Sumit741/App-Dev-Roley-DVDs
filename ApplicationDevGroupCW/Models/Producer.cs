@@ -6,6 +6,6 @@ namespace ApplicationDevGroupCW.Models
     {
         [Key]
         public int ProducerNumner { get; set; } 
-        public string ProducerName { get; set; }
+        public string? ProducerName { get; set; }
     }
 }

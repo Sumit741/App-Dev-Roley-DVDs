@@ -6,7 +6,7 @@ namespace ApplicationDevGroupCW.Models
     {
         [Key]
         public int CategoryNumber { get; set; } 
-        public string CategoryDescription { get; set; }
+        public string? CategoryDescription { get; set; }
         public Boolean AgeRestricted { get; set; }
     }
 }

@@ -6,6 +6,6 @@ namespace ApplicationDevGroupCW.Models
     {
         [Key]
         public int StudioNumber { get; set; }
-        public string StudioName { get; set; }
+        public string? StudioName { get; set; }
     }
 }

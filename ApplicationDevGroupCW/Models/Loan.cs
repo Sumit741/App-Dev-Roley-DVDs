@@ -9,13 +9,13 @@ namespace ApplicationDevGroupCW.Models
         public int LoanNumber { get; set; }
 
         [ForeignKey("LoanTypeNumber")]
-        public LoanType LoanType { get; set; }
+        public LoanType? LoanType { get; set; }
 
         [ForeignKey("CopyNumber")]
-        public DVDCopy DVDCopy { get; set; }
+        public DVDCopy? DVDCopy { get; set; }
 
         [ForeignKey("MemberNumber")]
-        public Member Member { get; set; }
+        public Member? Member { get; set; }
 
         public DateTime DateOut { get; set; }
         public DateTime DateDue { get; set; }
